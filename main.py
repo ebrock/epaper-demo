@@ -21,7 +21,6 @@ def printToDisplay(string):
 
     draw = ImageDraw.Draw(HBlackImage)
     font = ImageFont.load_default()
-    font_type = ImageFont.truetype("/usr/share/fonts/truetype/google/Bangers-Regular.ttf", 30)
     font_two = ImageFont.truetype("/usr/share/fonts/truetype/freefont/FreeMonoBold.ttf", 20)
     font_three = ImageFont.truetype("/usr/share/fonts/truetype/freefont/FreeMonoBold.ttf", 14)
 
